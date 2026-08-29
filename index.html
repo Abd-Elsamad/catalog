@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        SMEDO Supplements | Premium Sports Nutrition
+    </title>
+
+    <meta
+        name="description"
+        content="Explore SMEDO Supplements premium sports nutrition products, including protein, creatine, vitamins and more."
+    >
+
+    <meta
+        name="theme-color"
+        content="#07090c"
+    >
+
+    <!-- Open Graph -->
+    <meta
+        property="og:title"
+        content="SMEDO Supplements | Premium Sports Nutrition"
+    >
+
+    <meta
+        property="og:description"
+        content="Explore SMEDO Supplements premium sports nutrition products."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <!-- Fonts -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <!-- Logo sizing -->
+    <style>
+
+        .brand-logo {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            display: block;
+        }
+
+        .footer-brand .brand-logo {
+            width: 48px;
+            height: 48px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+
+            <!-- BRAND -->
+
+            <a
+                href="#home"
+                class="brand"
+                aria-label="SMEDO Supplements Home"
+            >
+
+                <img
+                    src="images/smedo-logo.png"
+                    class="brand-logo"
+                    alt="SMEDO Supplements Logo"
+                >
+
+            </a>
+
+
+            <!-- DESKTOP NAV -->
+
+            <nav
+                class="desktop-nav"
+                aria-label="Main navigation"
+            >
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#products">
+                    Products
+                </a>
+
+            </nav>
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mobileNav"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE NAV -->
+
+        <nav
+            id="mobileNav"
+            class="mobile-nav"
+            aria-label="Mobile navigation"
+        >
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#products">
+                Products
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section
+            id="home"
+            class="hero"
+        >
+
+            <div class="container hero-grid">
+
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        SMEDO SUPPLEMENTS
+                    </p>
+
+
+                    <h1>
+
+                        Premium Nutrition.
+
+                        <span>
+                            Better Performance.
+                        </span>
+
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Explore our collection of sports
+                        nutrition products from trusted
+                        supplement brands.
+
+                    </p>
+
+
+                    <a
+                        href="#products"
+                        class="primary-btn"
+                    >
+
+                        Explore Products
+
+                        <span>
+                            →
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- HERO VISUAL -->
+
+                <div
+                    class="hero-visual"
+                    aria-hidden="true"
+                >
+
+                    <div class="hero-glow"></div>
+
+                    <div class="hero-orbit orbit-one"></div>
+
+                    <div class="hero-orbit orbit-two"></div>
+
+                    <div class="hero-word">
+                        SMEDO
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PRODUCTS
+        ================================================== -->
+
+        <section
+            id="products"
+            class="products-section"
+        >
+
+            <div class="container">
+
+
+                <!-- SECTION HEADING -->
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            COLLECTION
+                        </p>
+
+                        <h2>
+                            Our Products
+                        </h2>
+
+                        <p class="section-subtitle">
+                            Explore our supplements collection
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        id="productCount"
+                        class="product-count"
+                    >
+                        Showing 0 products
+                    </div>
+
+                </div>
+
+
+
+                <!-- SEARCH / FILTER / SORT -->
+
+                <div class="toolbar">
+
+
+                    <!-- SEARCH -->
+
+                    <label
+                        class="search-box"
+                        for="searchInput"
+                    >
+
+                        <span class="sr-only">
+                            Search supplements
+                        </span>
+
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+
+                            <circle
+                                cx="11"
+                                cy="11"
+                                r="7"
+                            ></circle>
+
+                            <path
+                                d="m20 20-4-4"
+                            ></path>
+
+                        </svg>
+
+
+                        <input
+                            id="searchInput"
+                            type="search"
+                            placeholder="Search supplements..."
+                            autocomplete="off"
+                        >
+
+                    </label>
+
+
+
+                    <!-- CONTROLS -->
+
+                    <div class="control-row">
+
+
+                        <!-- CATEGORY -->
+
+                        <label class="select-wrap">
+
+                            <span class="sr-only">
+                                Filter by category
+                            </span>
+
+                            <select
+                                id="categoryFilter"
+                            >
+
+                                <option value="all">
+                                    All Products
+                                </option>
+
+                            </select>
+
+                        </label>
+
+
+
+                        <!-- SORT -->
+
+                        <label class="select-wrap">
+
+                            <span class="sr-only">
+                                Sort products
+                            </span>
+
+                            <select
+                                id="sortSelect"
+                            >
+
+                                <option value="default">
+                                    Default
+                                </option>
+
+                                <option value="price-asc">
+                                    Price: Low to High
+                                </option>
+
+                                <option value="price-desc">
+                                    Price: High to Low
+                                </option>
+
+                                <option value="name-asc">
+                                    Name: A-Z
+                                </option>
+
+                                <option value="name-desc">
+                                    Name: Z-A
+                                </option>
+
+                            </select>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ACTIVE FILTER -->
+
+                <div
+                    id="activeFilter"
+                    class="active-filter"
+                    hidden
+                >
+
+                    <span id="activeFilterText"></span>
+
+                    <button
+                        id="clearFilters"
+                        type="button"
+                    >
+                        Clear
+                    </button>
+
+                </div>
+
+
+
+                <!-- PRODUCTS -->
+
+                <div
+                    id="productGrid"
+                    class="product-grid"
+                >
+                </div>
+
+
+
+                <!-- EMPTY STATE -->
+
+                <div
+                    id="emptyState"
+                    class="empty-state"
+                    hidden
+                >
+
+                    <div
+                        class="empty-icon"
+                        aria-hidden="true"
+                    >
+                        ×
+                    </div>
+
+
+                    <h3>
+                        No products found
+                    </h3>
+
+
+                    <p>
+                        Try another search.
+                    </p>
+
+
+                    <button
+                        id="emptyClear"
+                        class="secondary-btn"
+                        type="button"
+                    >
+
+                        Clear Filters
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         PRODUCT MODAL
+    ====================================================== -->
+
+    <div
+        id="modalBackdrop"
+        class="modal-backdrop"
+        hidden
+    >
+
+        <div
+            class="product-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle"
+        >
+
+
+            <!-- CLOSE -->
+
+            <button
+                id="modalClose"
+                class="modal-close"
+                type="button"
+                aria-label="Close product details"
+            >
+
+                ×
+
+            </button>
+
+
+
+            <!-- PRODUCT IMAGE -->
+
+            <div class="modal-image-wrap">
+
+                <img
+                    id="modalImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+
+
+            <!-- PRODUCT CONTENT -->
+
+            <div class="modal-content">
+
+
+                <div
+                    id="modalCategory"
+                    class="modal-category"
+                >
+                    Product
+                </div>
+
+
+                <h2 id="modalTitle">
+                    Product Name
+                </h2>
+
+
+                <div
+                    id="modalPrice"
+                    class="modal-price"
+                >
+                    0 EGP
+                </div>
+
+
+                <div
+                    id="modalMeta"
+                    class="modal-meta"
+                >
+                </div>
+
+
+                <div class="modal-divider"></div>
+
+
+                <h3>
+                    Product Description
+                </h3>
+
+
+                <p
+                    id="modalDescription"
+                    class="modal-description"
+                >
+                </p>
+
+
+                <button
+                    class="secondary-btn modal-close-action"
+                    type="button"
+                >
+
+                    Close
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+
+            <div>
+
+
+                <!-- FOOTER BRAND -->
+
+                <div class="footer-brand">
+
+                    <a
+                        href="#home"
+                        class="brand"
+                        aria-label="SMEDO Supplements Home"
+                    >
+
+                        <img
+                            src="images/smedo-logo.png"
+                            class="brand-logo"
+                            alt="SMEDO Supplements Logo"
+                        >
+
+                    </a>
+
+                </div>
+
+
+                <p class="footer-description">
+
+                    Premium sports nutrition products
+                    for athletes and fitness enthusiasts.
+
+                </p>
+
+
+
+                <!-- CONTACT -->
+
+                <div
+                    class="footer-contact"
+                    style="
+                        margin-top: 18px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 7px;
+                    "
+                >
+
+                    <a
+                        href="tel:01098859633"
+                        style="color:#b1bac4;"
+                    >
+
+                        📞 0109 8859633
+
+                    </a>
+
+
+                    <a
+                        href="tel:01556524204"
+                        style="color:#b1bac4;"
+                    >
+
+                        📞 01556524204
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- SOCIAL MEDIA -->
+
+                <div
+                    class="footer-social"
+                    style="
+                        display:flex;
+                        gap:10px;
+                        margin-top:16px;
+                        flex-wrap:wrap;
+                    "
+                >
+
+                    <a
+                        href="https://www.facebook.com/share/1CvHkHnXLx/?mibextid=wwXIfr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="secondary-btn"
+                    >
+
+                        Facebook
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/smedo_supplement?igsi=N3B5bHp4aTlvdGY"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="secondary-btn"
+                    >
+
+                        Instagram
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- COPYRIGHT -->
+
+            <p class="copyright">
+
+                ©️ 2026 SMEDO Supplements.
+                All rights reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
